@@ -2,7 +2,7 @@ import { User } from "../models/user.model.js";
 import httpStatus from "http-status";
 import bcrypt, { hash } from "bcrypt";
 import crypto from "crypto";
-import Meeting from "../models/meetings.model.js"
+import { Meeting } from "../models/meetings.model.js";
 
 
 
